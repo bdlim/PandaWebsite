@@ -1,5 +1,11 @@
+/* --------------- PAGE --------------- */
+
+body {
+  width: 800px;
+  margin: auto;
+}
+
 /* --------------- HEADER --------------- */
-/* Navigation */
 
 #navigation-top {
   display: block;
@@ -19,14 +25,14 @@
   margin: 20px;
 }
 
-nav ul {
+#navigation ul {
   list-style: none;
   text-align: center;
   padding: 0;
-  margin 0;
+  margin: 0;
 }
 
-nav li {
+#navigation li {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   line-height: 40px;
   height: 40px;
@@ -34,18 +40,18 @@ nav li {
   margin: 20px;
 }
 
-nav a {
+#navigation a {
   text-decoration: none;
   color: #000000;
   display: block;
   font-size: 18px;
 }
 
-nav a:hover {
+#navigation a:hover {
   color: #808080;
 }
 
-nav a:active {
+#navigation a:active {
   color: #808080;
 }
 
@@ -59,6 +65,7 @@ nav a:active {
   display: block;
   background-color: #ffffff;
   text-align: center;
+  margin-top: 40px;
 }
 
 #contact-bottom ul {
@@ -136,4 +143,54 @@ nav a:active {
 
 .activeButton, .slideButton:hover {
   background-color: #717171;
+}
+
+/* --------------- PORTFOLIO --------------- */
+
+#portfolio-buttons ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#portfolio-buttons li {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 20px;
+}
+
+#portfolio-buttons a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  font-size: 18px;
+}
+
+#portfolio-buttons a:hover {
+  color: #808080;
+}
+
+#portfolio-buttons a:active {
+  color: #808080;
+}
+
+#portfolio-body {
+  width: 90%;
+  margin: auto;
+}
+
+#portfolio-body h2 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.row {
+  text-align: center;
+}
+
+.row img {
+  display: inline-block;
+  margin: 40px;
 }

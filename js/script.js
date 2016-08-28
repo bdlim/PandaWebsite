@@ -24,6 +24,7 @@ if (slides.length > 0) {
     slideButtons[0].className = 'slideButton activeButton';
 }
 
+//TODO Safety Check:  Ensure Index is a valid integer
 function changeToSlide(index) {
     index = index % slides.length;
 
