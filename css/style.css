@@ -1,5 +1,9 @@
 /* --------------- PAGE --------------- */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 800px;
   margin: auto;
@@ -183,7 +187,7 @@ body {
 }
 
 #portfolio-body h2 {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
@@ -193,4 +197,55 @@ body {
 .row img {
   display: inline-block;
   margin: 40px;
+}
+
+/* --------------- CONTACT --------------- */
+
+#contact-body {
+  width:90%;
+  margin: auto;
+  font-size: 0;
+}
+
+#contact-form {
+  width: 60%;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#contact-placeholder {
+  width: 40%;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:14px;
+}
+
+#contact-form div {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#contact-form label,
+#contact-form input {
+  display: block;
+}
+
+.name {
+  display: inline-block;
+}
+
+.fillForm input,
+.fillForm textarea,
+.fillForm button {
+  width: 83.7%;
+}
+
+.fillForm textarea {
+  min-height: 80px;
+}
+
+#contact-placeholder {
+  margin-top: 50px;
 }
