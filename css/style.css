@@ -199,6 +199,11 @@ body {
   margin: 40px;
 }
 
+#portfolio-body img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
 /* --------------- CONTACT --------------- */
 
 #contact-body {
